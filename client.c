@@ -7,7 +7,7 @@
 #include <stdlib.h>
 #include "pexeso.h"
 
-void handler( int )
+void handler( int signalNumber)
 {
 	exit( 0 );
 }
